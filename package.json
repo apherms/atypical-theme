@@ -1,0 +1,31 @@
+{
+    "name": "uwu-theme",
+    "displayName": "uwu-theme",
+    "description": "tema oscuro para modo nocturnoxs",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.69.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "uwu",
+                "uiTheme": "vs-dark",
+                "path": "./themes/uwu-color-theme.json"
+            }
+        ]
+    },
+    "icon": "icons/flying.png",
+    "author": {
+        "name": "Fer",
+        "email": "3aphril@gmail.com"
+    },
+    "repository": {
+        "url": "https://github.com/apherms/atypical-theme.git",
+        "type": "git"
+    },
+    "publisher": "uwu-them"
+}
