@@ -647,7 +647,7 @@
 				"punctuation.definition.list_item.markdown"
 			],
 			"settings": {
-				"foreground": "#EEFFFF"
+				"foreground": "#8a81b8"
 			}
 		},
 		{
@@ -722,7 +722,7 @@
 			],
 			"settings": {
 				"fontStyle": "underline",
-				"foreground": "#000000"
+				"foreground": "#dd9830"
 			}
 		},
 		{
@@ -767,7 +767,7 @@
 				"constant.other.reference.link.markdown"
 			],
 			"settings": {
-				"foreground": "#000000"
+				"foreground": "#46a0bb"
 			}
 		},
 		{
