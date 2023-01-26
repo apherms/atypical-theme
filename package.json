@@ -24,8 +24,8 @@
         "email": "3aphril@gmail.com"
     },
     "repository": {
-        "url": "https://github.com/apherms/atypical-theme.git",
+        "url": "https://github.com/apherms/pen-theme-vs.git",
         "type": "git"
     },
-    "publisher": "atypical-theme"
+    "publisher": "pen-theme"
 }

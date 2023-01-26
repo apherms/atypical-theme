@@ -5,7 +5,7 @@
 	"colors": {
 		"editor.background": "#0c111d",
 		"welcomePage.background": "#0c111d",
-		"editor.foreground": "#7ee7e7",
+		"editor.foreground": "#a4c7fc",
 		"focusBorder": "#4040fb",
 		"editorGroup.border": "#3a6464",
 		"list.hoverBackground": "#0e1425",
@@ -83,6 +83,7 @@
 		// "notebook.focusedCellBackground": "#ff0000",
 		// "list.focusOutline": "#ff0000",
 		// "toolbar.hoverOutline": "#ff0000",
+		
 
 		// CTRL+P
 		"quickInput.background": "#121246e5",
@@ -221,7 +222,7 @@
 				"string constant.other.placeholder"
 			],
 			"settings": {
-				"foreground": "#ca942f"
+				"foreground": "#ff9a3b"
 			}
 		},
 		{
@@ -230,7 +231,7 @@
 				"constant.other.color"
 			],
 			"settings": {
-				"foreground": "#000000"
+				"foreground": "#ffffff"
 			}
 		},
 		{
@@ -248,15 +249,24 @@
 			"name": "Keyword, Storage",
 			"scope": [
 				"keyword",
+			],
+			"settings": {
+				"foreground": "#fff129"
+			}
+		},
+		{
+			"name": "function",
+			"scope": [
+				// "keyword",
 				"storage.type",
 				"storage.modifier"
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#a15ccf"
+				"foreground": "#5e81f5"
 			}
 		},
-		// TAGS+return+for+if<>
+		// TAGS+return+for+if<> $$$$gahora
 		{
 			"name": "Operator, Misc",
 			"scope": [
@@ -275,7 +285,29 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#de98ff"
+				"foreground": "#8d9dfd"
+			}
+		},
+//prueba php
+		{
+			"name": "inicio de php",
+			"scope": [
+				"punctuation.section.embedded",
+			],
+			"settings": {
+				"fontStyle": "italic bold",
+				"foreground": "#58ff49"
+			}
+		},
+
+		{
+			"name": "dollar $",
+			"scope": [
+				"punctuation",
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#ff79f4"
 			}
 		},
 
@@ -292,7 +324,7 @@
 				"foreground": "#ac7af7"
 			}
 		},
-		// nombre de funciones, metodos especiales-ABAJO.JS>
+		// nombre de funciones, metodos especiales-ABAJO.JS>mysqli_real_escape
 		{
 			"name": "Function, Special Method",
 			"scope": [
@@ -303,7 +335,7 @@
 				"keyword.other.special-method"
 			],
 			"settings": {
-				"foreground": "#9fce33"
+				"foreground": "#d080ff"
 			}
 		},
 		{
@@ -322,10 +354,10 @@
 				"string.other.link"
 			],
 			"settings": {
-				"foreground": "#000000"
+				"foreground": "#ffffff"
 			}
 		},
-		// rems,atributos etc numerosss->
+		// rems,atributos etc numerosss-> codigo SQL SELECT FROM
 		{
 			"name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
 			"scope": [
@@ -339,9 +371,10 @@
 				"keyword.other"
 			],
 			"settings": {
-				"foreground": "#56cece"
+				"foreground": "#19c6cc"
 			}
 		},
+		
 		// LINKS DE HREF, REL NAME ETC
 		{
 			"name": "String, Symbols, Inherited Class, Markup Heading",
@@ -355,10 +388,12 @@
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
-				"foreground": "#6181c7"
+				// "foregrousnd": "#ffe65c"
+				"foreground": "#b4ff52"
 			}
 		},
-		// CLASES JS-PHP -ABAJP>
+		
+		// CLASES JS-PHP -ABAJP
 		{
 			"name": "Class, Support",
 			"scope": [
@@ -372,7 +407,7 @@
 				"support.type.sys-types"
 			],
 			"settings": {
-				"foreground": "#40f2ff"
+				"foreground": "#6ccdfa"
 			}
 		},
 		// JS connsole -ABAJO>
@@ -408,17 +443,18 @@
 				"variable.other.class.js"
 			],
 			"settings": {
-				"foreground": "#000000"
+				"foreground": "#ffffff"
 			}
 		},
 		{
+			// thisss en php
 			"name": "Language methods",
 			"scope": [
 				"variable.language"
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#FF5370"
+				"foreground": "#ff00b3"
 			}
 		},
 		{
@@ -428,7 +464,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#000000"
+				"foreground": "#ffffff"
 			}
 		},
 		{
@@ -438,7 +474,7 @@
 				"variable.function.constructor"
 			],
 			"settings": {
-				"foreground": "#000000"
+				"foreground": "#ffffff"
 			}
 		},
 		// atributos LUEGO DE ETIQUETAS HTML -ABAJO>
@@ -448,7 +484,8 @@
 				"entity.other.attribute-name"
 			],
 			"settings": {
-				"foreground": "#ddc36d"
+				// "foreground": "#27b7f0"
+				"foreground": "#4065dd"
 			}
 		},
 		{
@@ -459,7 +496,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#000000"
+				"foreground": "#ffffff"
 			}
 		},
 		// clases en CSS ->
@@ -478,7 +515,7 @@
 				"source.sass keyword.control"
 			],
 			"settings": {
-				"foreground": "#000000"
+				"foreground": "#ffffff"
 			}
 		},
 		{
@@ -514,7 +551,7 @@
 				"string.regexp"
 			],
 			"settings": {
-				"foreground": "#000000"
+				"foreground": "#0aafad"
 			}
 		},
 		{
